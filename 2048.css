@@ -1,0 +1,124 @@
+﻿header {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+	header h1 {
+		font-family: Arial;
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	header #newgamebutton {
+		display: block;
+		margin: 20px auto;
+		width: 100px;
+		padding: 10px 10px;
+		background-color: #8f7a66;
+		font-family: Arial;
+		color: white;
+		border-radius: 10px;
+		text-decoration: none;
+	}
+
+		header #newgamebutton:hover {
+			background-color: #9f8a77;
+		}
+
+	header p {
+		font-family: Arial;
+		font-size: 25px;
+		margin: 20px auto;
+	}
+
+#grid-container {
+	width: 460px;
+	height: 460px;
+	padding: 20px;
+	margin: 50px auto;
+	background-color: #bbada0;
+	border-radius: 10px;
+	position: relative;
+}
+
+.grid-cell {
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+	background-color: #ccc0b3;
+	position: absolute;
+}
+
+.number-cell {
+	border-radius: 6px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 100px;
+	text-align: center;
+	position: absolute;
+}
+
+#showwindow {
+	visibility: hidden;
+}
+
+.modalpopupbg {
+	clear: both;
+	width: 100%;
+	height: 100%;
+	background-color: #A6A6A6;
+	/*透明度设置*/
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	/*fixed关联的是浏览器窗口*/
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.modalpopup {
+	background-color: #FFFFDD;
+	position: absolute;
+	/*CSS3圆角设置*/
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/*CSS3阴影设置*/
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+	box-shadow: #666 0px 0px 10px;
+}
+
+#cancelbtn {
+	float: right;
+	margin-right: 30px;
+	width: 100px;
+	height: 50px;
+	background-color:#FFFFBB;
+	color:#9f8a77;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+	#cancelbtn:hover {
+		cursor: pointer;
+		background-color: #9f8a77;
+		color:#FFFFFF;
+	}
+a1{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 50px;
+	color:#FFDDAA;
+}
+a2{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 60px;
+	color:#FF3EFF;
+}
